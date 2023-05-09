@@ -1,0 +1,226 @@
+/*СЕКЦИЯ ТОПОВОЙ БЭК-КАРТИНКИ ВМЕСТЕ С БЛОКОМ*/
+/*THE SECTION OF THE TOP BACK-IMAGE TOGETHER WITH THE BLOCK*/
+.top-section {
+    height: 364px;
+    background-image: url("img/top_img.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    inline-size: 100%;
+}
+
+.block-content {
+    background-color: white;
+    margin-top: 80px;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+}
+
+.top-block-title p {
+    padding-top: 38px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.bottom-block-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 38px;
+    padding-bottom: 38px;
+}
+
+.bottom-first-block p {
+    font-size: 14px;
+    line-height: 17px;
+    color: hsla(104, 0%, 38%, 1);
+    margin-bottom: 0;
+}
+
+.bottom-second-block p {
+    background-color: hsla(0, 0%, 15%, 1);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    line-height: 15px;
+    font-size: 13px;
+    margin-bottom: 0;
+} 
+
+/*CЕКЦИЯ МЕНЮ*/
+/*MENU SECTION*/
+.menu-list a {
+    color: hsla(326, 0%, 38%, 1);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.menu-list a:hover {
+    text-decoration: none;
+    color: hsl(119, 35%, 55%);
+}
+
+.menu-list a:first-child {
+    color: hsl(119, 35%, 55%);
+}
+
+.menu-list {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    border-bottom: 1.5px solid hsla(0, 0%, 46%, 0.2);
+}
+
+/*СЕКЦИЯ ЗАКУСОК*/
+/*SNACK SECTION*/
+.card-content {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.card {
+    transition: transform .2s linear;
+    border: 1px solid hsla(0, 0%, 46%, 0.2);
+    border-radius: 0;
+    margin-bottom: 48px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    background-color: hsl(0, 0%, 98%);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card-dishes-img img:hover{
+    transform: scale(1);
+    outline: none;
+}
+
+.card-left-side {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+.card-dishes-name p {
+    color:hsla(326, 0%, 11%, 1);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.second-name p {
+    margin-bottom: 81px;
+}
+
+.card-dishes-discription p {
+    color:hsla(104, 0%, 38%, 1);
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 56px;
+}
+
+.card-dishes-price p {
+    color: hsla(326, 0%, 11%, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.pic-menu {
+    margin-top: 56px;
+    margin-bottom: 2rem;
+}
+
+.menu-header p {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 2rem;
+}
+
+.menu-header hr {
+    display: none;
+}
+
+.btn-up-second-page {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform .3s linear;
+}
+
+.btn-up-second-page:hover {
+    transform: scale(1.05);
+}
+
+#start2 {
+    border-top: 80px solid transparent;
+    margin-top: -80px;
+    background-clip: padding-box;
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        margin-bottom: 2rem;
+    }
+
+    .pic-menu {
+        margin-bottom: 16px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .top-block-title p{
+        margin-bottom: 40px;
+    }
+
+    .bottom-block-content {
+        flex-direction: column;
+        padding-bottom: 24px;
+    }
+
+    .bottom-first-block p {
+        margin-bottom: 1rem;
+    }
+
+    .block-content {
+        margin-top: 200px;
+    }
+
+    .menu-header p {
+        margin-top: 111px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .menu-header hr{
+        display: block;
+        width: 50px;
+        margin-top: 0;
+        background-color: black;
+        margin-bottom: 43px;
+    }
+
+    .card {
+        margin-bottom: 16px;
+    }
+
+    .pic-menu {
+        margin-bottom: 24px;
+    }
+}

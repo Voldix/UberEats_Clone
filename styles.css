@@ -1,0 +1,331 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    height: 72px;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    top: 0px;
+    max-width: 100%;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    height: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img {
+    transition: transform .3s linear;
+}
+
+.right-side img:hover {
+    transform: scale(1.1);
+}
+
+.log-in {
+    background-color: white;
+    border: 1px solid hsla(0, 0%, 0%, .2);
+    font-size: 13px;
+    Width: 78px;
+    height: 40px;
+    font-weight: 500;
+    margin-right: 27px;
+    cursor: pointer;
+    border-radius: .3em;
+    outline: none;
+    transition: all .3s linear;
+}
+
+.log-in:hover {
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(119, 35%, 55%);
+    box-shadow: 0 0 5px 0 hsl(119, 35%, 55%);
+    
+}
+
+main .form-container {
+    margin-top: 56px;
+}
+
+main .form-control {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    block-size: 24px;
+    font-size: 16px;
+    border: 0;
+    padding: 6px 0;
+    border-radius: 0;
+    border-bottom: 1px solid hsla(0, 0%, 46%, 1);
+}
+
+/*убираем тень при фокусировки инпута*/
+/*removing the shadow when focusing the input*/
+main .form-control:focus {
+    box-shadow: none;
+    border-color: hsla(0, 0%, 46%, 1);
+}
+
+main .pic-container {
+    margin-top: 56px;
+}
+
+main .pic-header {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card img {
+    transition: transform .2s linear;
+}
+
+.card img:hover {
+    transform: scale(1.025);
+}
+
+.grid-posts .card {
+    border: none;
+}
+
+/*Выравнивание текста под изображением на всю ширину*/
+/*Full-width text alignment under the image*/
+.grid-posts .card-body {
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.line-1 {
+    color: hsla(326, 0%, 11%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.line-2 {
+    color: hsla(104, 0%, 38%, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 4px;
+}
+
+.line-3 {
+    color: hsla(326, 0%, 11%, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: hsla(0, 0%, 15%, 1);
+}
+
+.footer-logo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.section-1 {
+    border-radius: 0;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 1);
+    margin-bottom: 32px;
+}
+
+.language {
+    width: 200px;
+    height: 40px;
+    background-color: hsla(0, 0%, 23%, 1);
+}
+
+.language-row {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language-value span{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.picture-world img {
+    width: 18px;
+    height: 18px;
+    margin-left: 16px;
+}
+
+.picture-arrow img {
+    width: 14px;
+    height: 14px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.tag p {
+    color: white;
+    font-size: 18px;
+    margin: 23px 0;
+}
+
+.tag span {
+    color: hsl(119, 35%, 55%);
+}
+
+.social-pics img {
+    margin-right: 16px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 23px;
+    transition: transform .3s;
+}
+
+.social-pics img:hover {
+    transform: scale(1.2);
+}
+
+.social-pics a {
+    text-decoration: none;
+}
+
+.footer-links {
+    padding: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: hsla(320, 100%, 100%, 1);
+}
+
+.footer-links a:hover {
+    color: hsl(119, 35%, 55%);
+}
+
+.footer-links li {
+    margin: 23px 0;
+}
+
+.footer-links li:first-child {
+    margin-top: 0;
+}
+
+.section-2 {
+    border-radius: 0;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 1);
+}
+
+.third-col {
+    margin-bottom: 25px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 1);
+}
+
+.app-store-pic img, .google-play-pic img {
+    margin: 40px 0;
+    width: 135px;
+    height: 40px;
+    transition: transform .3s linear;
+}
+
+.app-store-pic img {
+    margin-right: 40px;
+}
+
+.app-store-pic img:hover, .google-play-pic img:hover {
+    transform: scale(1.1);
+}
+
+.last-line p {
+    margin-bottom: 24px;
+    color: hsla(320, 100%, 100%, 1);
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.section-4 {
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+
+.btn-up {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform .3s linear;
+}
+
+.btn-up:hover {
+    transform: scale(1.05);
+}
+
+/*Якорь кнопки наверх*/
+/*Anchor for up-btn*/
+#start {
+    border-top: 128px solid transparent;
+    margin-top: -72px;
+    background-clip: padding-box;
+}
+
+@media screen and (max-width: 575px) {
+    .right-side img {
+        display: none;
+    }
+
+    .right-side button {
+        margin-right: 0;
+    }
+}
+
+/*ПРОБНЫЙ БЛОК*/
+/*TRIAL BLOCK*/
+select {
+    background-color: hsla(0, 0%, 23%, 1);
+    color: white;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    position: relative;
+}
+
