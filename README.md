@@ -1,5 +1,5 @@
 # UberEats Clone
-## See Live - https://portfolio-ubereats-clone-layout.netlify.app
+## See Live - https://voldix.github.io/UberEats_Clone/
 
 ![App Screenshot](/img/screenshot1.PNG) 
 
