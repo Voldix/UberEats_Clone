@@ -1,4 +1,4 @@
-# UberEats_Clone
+# UberEats Clone
 # See Live - https://portfolio-ubereats-clone-layout.netlify.app
 
 ![App Screenshot](/img/screenshot1.PNG)
